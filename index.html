@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RokCeramica</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
@@ -14,25 +15,38 @@
         <header class="header">
             <div class="header__container container">
                 <div class="header__logo">
-                    <img src="img/goncharlogo.svg" alt="logo" class="icon">
+                    <a href="index.html"><img src="img/goncharlogo.svg" alt="logo" class="icon"></a>
                 </div>
                 <div class="header__nav">
-                    <a href="" class="header__item">Мастер-классы</a>
-                    <a href="" class="header__item">Праздники</a>
-                    <a href="" class="header__item">Расписания</a>
-                    <a href="" class="header__item">Блог</a>
+                    <a href="html/master.html" class="header__item">Мастер-классы</a>
+                    <a href="html/events.html" class="header__item">Праздники</a>
+                    <a href="html/schedule.html" class="header__item">Расписания</a>
                 </div>
                 <div class="header__social">
-                    <a href="#" class="header__inst"> <img src="img/inst.svg" alt="inst" class="icon-social"></a>
-                    <a href="#" class="header__vk"> <img src="img/vk.svg" alt="vk" class="icon-social"></a>
-                    <a href="mailto:admin@gonchar.ru" class="header__mail"> <img src="img/mail.svg" alt="face"
+                    <a href="#" class="header__inst inst"> <img src="img/inst.svg" alt="inst" class="icon-social"></a>
+                    <a href="#" class="header__vk vk"> <img src="img/vk.svg" alt="vk" class="icon-social"></a>
+                    <a href="mailto:admin@gonchar.ru" class="header__mail mail"> <img src="img/mail.svg" alt="face"
                             class="icon-social"></a>
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="html/master.html" class="header__item">Мастер-классы</a>
+                        </li>
+                        <li>
+                            <a href="html/events.html" class="header__item">Праздники</a>
+                        </li>
+                        <li>
+                            <a href="html/schedule.html" class="header__item">Расписания</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </header>
-
-        <section class="slider"></section>
-
         <section class="invite">
             <div class="invite__container container">
                 <div class="invite__icon">
@@ -103,8 +117,8 @@
                 <h2 class="master__title title">И ПРИХОДИ НА МАСТЕР-КЛАСС!</h2>
                 <span class="master__str">Мы ждем всех от 4 до 99+ лет</span>
                 <div class="master__links">
-                    <a href="" class="master__link master__link-green">Мастер-классы</a>
-                    <a href="" class="master__link master__link-red">Расписания</a>
+                    <a href="html/master.html" class="master__link master__link-green">Мастер-классы</a>
+                    <a href="html/schedule.html" class="master__link master__link-red">Расписания</a>
                 </div>
                 <div class="master__items">
                     <div class="master__item">
@@ -145,12 +159,8 @@
                         Провести время вдвоем? Романтические свидания,
                         могут быть оригинальными.
                     </P>
-                    <a href="" class="holidays__btn">Мастер-классы</a>
+                    <a href="html/master.html" class="holidays__btn">Мастер-классы</a>
                 </div>
-                <!-- <div class="holidays__img">
-                    <img src="" alt="" class="holidays__icon">
-                </div> -->
-            </div>
         </section>
         <section class="team">
             <div class="team__container container">
@@ -177,7 +187,7 @@
                             <img src="img/olya.png" alt="olga" class="member__foto">
                         </div>
                         <span class="member__line"></span>
-                        <h3 class="member__name caption">Оля</h3>
+                        <h3 class="member__name caption">Юля</h3>
                         <p class="member__text">
                             Юля с детства любила рисовать и мастерить. Поэтому пошла учится на дизайнера, а в керамику
                             попала то ли случайно, то ли нет, но тоже влюбилась в неё всерьёз и надолго. И курсы по
@@ -207,7 +217,7 @@
                     <img src="img/quest.png" alt="quest" class="quest__img">
                 </div>
                 <div class="quest__text">
-                    <h2 class="quest__title title">Есть воросы? - жми сюда!</h2>
+                    <h2 class="quest__title title">Есть воросы?</h2>
                     <p class="quest__message">
                         А если вы не хотите ждать, звоните или пишите сами 8 (495) 128-53-80 или 8 (977) 128-53-61. Мы с
                         радостью запишем Вас на мастер-класс!
@@ -235,15 +245,19 @@
                         <a href="tel:+74951285382" class="footer__tel-1">(495) 128-53-82</a>
                     </span>
                     <div class="footer__social">
-                        <a href="#" class="footer__inst"> <img src="img/inst.svg" alt="inst" class="icon-social"></a>
-                        <a href="#" class="footer__vk"> <img src="img/vk.svg" alt="vk" class="icon-social"></a>
-                        <a href="mailto:admin@gonchar.ru" class="footer__mail"> <img src="img/mail.svg" alt="face"
+                        <a href="#" class="footer__inst inst"> <img src="img/inst.svg" alt="inst"
+                                class="icon-social"></a>
+                        <a href="#" class="footer__vk vk"> <img src="img/vk.svg" alt="vk" class="icon-social"></a>
+                        <a href="mailto:admin@gonchar.ru" class="footer__mail mail"> <img src="img/mail.svg" alt="face"
                                 class="icon-social"></a>
                     </div>
                 </div>
             </div>
         </footer>
     </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
