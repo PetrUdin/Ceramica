@@ -3,6 +3,8 @@
 ### Цель проекта
 ***Сайт свёрстан в учебных целях***
 ### Screenshots:
+
+
 ![Alt text](/screenshots/1.png)
 
 
