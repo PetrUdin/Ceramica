@@ -1,7 +1,6 @@
 # Ceramica and Rock
 ## Сайт для школы гончарного мастерства
-### Цель проекта
-***Сайт свёрстан в учебных целях***
+
 
  ### Ссылка на GitHub Pages: <https://petrudin.github.io/Ceramica/>
 ### Screenshots:
